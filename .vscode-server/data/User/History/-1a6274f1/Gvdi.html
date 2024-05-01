@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es">
+        <meta charset="UFT-8">
+        <title>Inicio</title>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="home.html">
+                    <img src="images/Logo_1.png" alt="LogoShop">
+                </a>
+            </div>
+        </header>
+        <div class=".menu-container">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Inicio</a><span>|</span></li>
+                    <li><a href="destacado.html">Destacados</a><span>|</span></li>
+                    <li><a href="resena.html">Reseñas</a><span>|</span></li>
+                    <li><a href="sobre_nosotros.html">Sobre nosotros</a><span>|</span></li>
+                    <li><a href="contacto.html">Contáctanos</a><span>|</span></li>
+                    <li class="menu"> <!-- Cambia la clase a "menu" -->
+                        <a>Ingresar</a>
+                        <ul>
+                            <li><a href="inicio_sesion.html">Iniciar Sesion</a></li>
+                            <li><a href="registro.html">Regístrate</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <section class="landing">
+            <h1>Hola ingresa tu email/usuario y contraseña</h1>
+            <form id="login-form">
+                <input type="email" name="correo" placeholder="Correo electrónico" required>
+                <input type="password" name="contrasena" placeholder="Contraseña" required>
+                <button type="submit">Ingresar</button>
+            </form>
+            <a href="registro.html">¿Aún no tienes una cuenta? Regístrate aquí</a>
+        </section>
+        <script src="login.js"></script>
+    </body>
+</html>

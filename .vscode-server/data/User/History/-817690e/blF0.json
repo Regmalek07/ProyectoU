@@ -1,0 +1,12 @@
+{
+  "datos": [
+    {
+      "id": "7a90",
+      "nombre": "luis",
+      "telefono": "1234566",
+      "correo": "dada@dad.com",
+      "contrasena": "dasda",
+      "direccion": "calle"
+    }
+  ]
+}

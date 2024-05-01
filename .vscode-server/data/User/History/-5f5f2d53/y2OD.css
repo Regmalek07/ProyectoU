@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+/* Estilos para el banner */
+
+header {
+    background-color: #ffc403;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 120px;
+    width: 95%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.logo img {
+    width: 300px; 
+}
+
+/* Estilos para la sección de landing */
+.landing {
+    background-color: #f2f2f2;
+    margin: 5% 0;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+}
+
+/* Estilos para los formularios */
+input[type="email"],
+input[type="password"],
+button {
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #62aeff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu-container {
+    background-color: #ffc403; /* Color del encabezado */
+    padding: 10px 0; /* Agrega un poco de espacio alrededor del menú */
+    padding: 10px;
+    border-left: 2px;
+    border-right: 2px;
+    border-bottom: 2px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+nav {
+    margin-top: auto; 
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+nav li {
+    margin-right: 20px;
+    position: relative; 
+}
+
+nav li:last-child {
+    margin-right: 0; 
+}
+
+nav span {
+    position: absolute;
+    top: 50%;
+    right: -10px; 
+    transform: translateY(-50%);
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #105; 
+}
+
+.menu {
+    position: relative;
+    text-align: center;
+}
+
+.menu:hover {
+    background-color: #fff; /* Cambia el fondo al pasar el ratón */
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none; /* Oculta las opciones por defecto */
+    position: absolute;
+    left: 0;
+    width: 150px;
+    background-color: #ffc403; /* Color de fondo */
+    border-radius: 5px; /* Redondea las esquinas */
+}
+
+.menu:hover ul {
+    display: block; /* Muestra las opciones al pasar el ratón */
+}
+
+.menu ul li:first-child {
+    border-top: none; /* Elimina el borde superior del primer elemento */
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff; /* Color del texto */
+    padding: 10px; /* Añade un relleno */
+}
+
+.menu ul li a:hover {
+    background-color: #fff; /* Cambia el fondo al pasar el ratón */
+    color: #ffc403; /* Cambia el color del texto al pasar el ratón */
+}

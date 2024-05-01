@@ -1,0 +1,28 @@
+{
+  "usuarios": [
+    {
+      "id": "16d0",
+      "nombre": "luis",
+      "telefono": "1234566",
+      "correo": "luis@hotmail.com",
+      "contrasena": "123456",
+      "direccion": "Calle 1"
+    },
+    {
+      "id": "7f54",
+      "nombre": "Paola",
+      "telefono": "12345657",
+      "correo": "pao@hotmail.com",
+      "contrasena": "123456",
+      "direccion": "Calle 2"
+    }
+  ],
+  "resenas": [
+    {
+      "id": "1",
+      "usuario": "nombreUsuario",
+      "texto": "Contenido de la reseña",
+      "calificacion": 5
+    }
+  ]
+}

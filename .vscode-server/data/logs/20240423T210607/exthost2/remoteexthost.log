@@ -1,0 +1,31 @@
+2024-04-23 21:06:24.252 [info] Extension host with pid 11245 started
+2024-04-23 21:06:24.271 [info] Lock '/home/malek/.vscode-server/data/User/workspaceStorage/36fb4c5886df237ab4c223ca61a60113/vscode.lock': Lock acquired.
+2024-04-23 21:06:24.291 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-04-23 21:06:24.358 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-23 21:06:24.451 [info] Eager extensions activated
+2024-04-23 21:06:24.451 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-23 21:06:24.451 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-23 21:06:25.304 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-04-23 21:06:26.718 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-23 21:07:04.677 [info] ExtensionService#_doActivateExtension almenon.arepl, startup: false, activationEvent: 'onCommand:extension.currentAREPLSession'
+2024-04-23 21:11:22.116 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-04-23 21:17:42.939 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-04-23 21:18:58.456 [info] ExtensionService#_doActivateExtension nhatvu148.jupiter, startup: false, activationEvent: '*'
+2024-04-23 21:18:58.541 [error] Activating extension nhatvu148.jupiter failed due to an error:
+2024-04-23 21:18:58.541 [error] Error: Couldn't find a TabNine binary (tried the following paths: /home/malek/.vscode-server/extensions/nhatvu148.jupiter-1.2.6/binaries/4.0.60/x86_64-unknown-linux-musl/TabNine, /home/malek/.vscode-server/extensions/nhatvu148.jupiter-1.2.6/binaries/.active/x86_64-unknown-linux-musl/TabNine)
+	at Object.fetchBinaryPath [as default] (/home/malek/.vscode-server/extensions/nhatvu148.jupiter-1.2.6/out/binary/fetchBinaryPath.js:10:15)
+	at Object.runBinary [as default] (/home/malek/.vscode-server/extensions/nhatvu148.jupiter-1.2.6/out/binary/runBinary.js:6:46)
+	at Binary.startChild (/home/malek/.vscode-server/extensions/nhatvu148.jupiter-1.2.6/out/binary/Binary.js:88:55)
+	at Binary.init (/home/malek/.vscode-server/extensions/nhatvu148.jupiter-1.2.6/out/binary/Binary.js:23:14)
+	at Object.initBinary (/home/malek/.vscode-server/extensions/nhatvu148.jupiter-1.2.6/out/binary/requests/requests.js:16:28)
+	at activate (/home/malek/.vscode-server/extensions/nhatvu148.jupiter-1.2.6/out/extension.js:21:16)
+	at W.kb (/home/malek/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/out/vs/workbench/api/node/extensionHostProcess.js:160:13457)
+	at W.jb (/home/malek/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/out/vs/workbench/api/node/extensionHostProcess.js:160:13167)
+	at /home/malek/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/out/vs/workbench/api/node/extensionHostProcess.js:160:11189
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.n (/home/malek/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/out/vs/workbench/api/node/extensionHostProcess.js:144:6237)
+	at async a.m (/home/malek/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/out/vs/workbench/api/node/extensionHostProcess.js:144:6200)
+	at async a.l (/home/malek/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/out/vs/workbench/api/node/extensionHostProcess.js:144:5657)
+2024-04-23 21:19:52.062 [info] Extension host terminating: received terminate message from renderer
+2024-04-23 21:19:52.062 [info] Lock '/home/malek/.vscode-server/data/User/workspaceStorage/36fb4c5886df237ab4c223ca61a60113/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-04-23 21:19:52.108 [info] Extension host with pid 11245 exiting with code 0

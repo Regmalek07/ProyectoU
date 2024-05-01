@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+header {
+    background-color: #ffc403;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 120px;
+    width: 95%;
+}
+
+.logo img {
+    width: 300px; 
+}
+
+.contact {
+    background-color: #f2f2f2;
+    margin: 5% 0;
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #5BBCFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav {
+    margin-top: auto; /* Mueve el menú hacia la parte inferior del header */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos del menú horizontalmente */
+}
+
+nav li {
+    margin-right: 20px;
+    position: relative; /* Permite posicionar el separador "|" */
+}
+
+nav li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento de la lista */
+}
+
+nav span {
+    position: absolute;
+    top: 50%;
+    right: -10px; /* Ajusta la posición del separador "|" */
+    transform: translateY(-50%);
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Cambia el color de texto según tu preferencia */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #105; /* Cambia el color de texto al pasar el mouse */
+}

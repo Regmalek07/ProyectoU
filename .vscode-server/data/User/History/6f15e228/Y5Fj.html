@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es">
+        <meta charset="UFT-8">
+        <title>Catalogo</title>
+        <link rel="stylesheet" href="styles/styles6.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="home.html">
+                    <img src="images/Logo_1.png" alt="LogoShop">
+                </a>
+            </div>
+            <nav>
+                <button id="logout-button" onclick="logout()" style="display: none;">Cerrar sesión</button>
+            </nav>
+        </header>
+        <div class="menu-container">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Inicio</a><span>|</span></li>
+                    <li><a href="destacado.html">Destacados</a><span>|</span></li>
+                    <li><a href="resena.html">Reseñas</a><span>|</span></li>
+                    <li><a href="sobre_nosotros.html">Sobre nosotros</a><span>|</span></li>
+                    <li><a href="contacto.html">Contáctanos</a><span>|</span></li>
+                    <li id="btIngresar" class="menu"> <!-- Cambia la clase a "menu" -->
+                        <a>Ingresar</a>
+                        <ul>
+                            <li><a href="inicio_sesion.html">Iniciar Sesion</a></li>
+                            <li><a href="registro.html">Regístrate</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="scroll-container" id="scroll-container">
+            <div class="scroll-content" id="scroll-content">
+                <div class="scroll-item">
+                    <img src="images/Portatil1.png" alt="Imagen 1">
+                    <div class="caption"><h2>Poratil Pearpro 13 2024</h2></div>
+                    <div class="caption"><h1>Decuento 30%</h1></div>
+                </div>
+                <div class="scroll-item">
+                    <img src="images/portatil6.png" alt="Imagen 2">
+                    <div class="caption">Texto de descripción para la imagen 2</div>
+                </div>
+                <div class="scroll-item">
+                    <img src="images/Portatil2.png" alt="Imagen 3">
+                    <div class="caption">Texto de descripción para la imagen 3</div>
+                </div>
+                <!-- Agrega más imágenes y texto según sea necesario -->
+            </div>
+        </div>        
+        <footer>
+            <p>Síguenos en nuestras redes sociales:</p>
+            <div>
+                <a href="https://www.facebook.com/tu_pagina" target="_blank">
+                    <img src="images/facebook.png" alt="Facebook" style="width: 30px; height: 30px; margin-right: 10px;">
+                </a>
+                <a href="https://twitter.com/tu_pagina" target="_blank">
+                    <img src="images/twitter.png" alt="Twitter" style="width: 30px; height: 30px; margin-right: 10px;">
+                </a>
+                <a href="https://www.instagram.com/tu_pagina" target="_blank">
+                    <img src="images/instagram.png" alt="Instagram" style="width: 30px; height: 30px;">
+                </a>
+            </div>
+        </footer>
+        <script src="scroll.js"></script>
+        <script src="localsesion.js"></script>
+    </body>    
+</html>

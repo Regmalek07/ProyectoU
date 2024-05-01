@@ -1,0 +1,338 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'json-server' ]
+1 info using npm@8.5.1
+2 info using node@v12.22.9
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:/home/malek/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 0ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 10ms
+18 timing npm:load:configload Completed in 10ms
+19 timing npm:load:setTitle Completed in 1ms
+20 timing config:load:flatten Completed in 2ms
+21 timing npm:load:display Completed in 3ms
+22 verbose logfile /home/malek/.npm/_logs/2024-04-26T14_22_54_440Z-debug-0.log
+23 timing npm:load:logFile Completed in 5ms
+24 timing npm:load:timers Completed in 0ms
+25 timing npm:load:configScope Completed in 0ms
+26 timing npm:load Completed in 21ms
+27 timing arborist:ctor Completed in 1ms
+28 timing idealTree:init Completed in 6ms
+29 timing idealTree:userRequests Completed in 2ms
+30 silly idealTree buildDeps
+31 silly fetch manifest json-server@*
+32 http fetch GET 200 https://registry.npmjs.org/json-server 378ms (cache miss)
+33 silly placeDep ROOT json-server@1.0.0-alpha.23 OK for:  want: *
+34 silly fetch manifest @tinyhttp/app@^2.2.3
+35 silly fetch manifest @tinyhttp/cors@^2.0.0
+36 silly fetch manifest chalk@^5.3.0
+37 silly fetch manifest chokidar@^3.5.3
+38 silly fetch manifest dot-prop@^8.0.2
+39 silly fetch manifest eta@^3.2.0
+40 silly fetch manifest inflection@^3.0.0
+41 silly fetch manifest json5@^2.2.3
+42 silly fetch manifest lowdb@^7.0.1
+43 silly fetch manifest milliparsec@^2.3.0
+44 silly fetch manifest sirv@^2.0.4
+45 silly fetch manifest sort-on@^6.0.0
+46 http fetch GET 200 https://registry.npmjs.org/dot-prop 297ms (cache miss)
+47 http fetch GET 200 https://registry.npmjs.org/json5 299ms (cache miss)
+48 http fetch GET 200 https://registry.npmjs.org/sirv 298ms (cache miss)
+49 http fetch GET 200 https://registry.npmjs.org/lowdb 301ms (cache miss)
+50 http fetch GET 200 https://registry.npmjs.org/eta 305ms (cache miss)
+51 http fetch GET 200 https://registry.npmjs.org/chokidar 312ms (cache miss)
+52 http fetch GET 200 https://registry.npmjs.org/chalk 334ms (cache miss)
+53 http fetch GET 200 https://registry.npmjs.org/inflection 334ms (cache miss)
+54 http fetch GET 200 https://registry.npmjs.org/sort-on 551ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/milliparsec 688ms (cache miss)
+56 http fetch GET 200 https://registry.npmjs.org/@tinyhttp%2fcors 931ms (cache miss)
+57 http fetch GET 200 https://registry.npmjs.org/@tinyhttp%2fapp 2575ms (cache miss)
+58 timing idealTree:#root Completed in 2967ms
+59 silly placeDep node_modules/json-server @tinyhttp/app@2.2.3 OK for: json-server@1.0.0-alpha.23 want: ^2.2.3
+60 silly placeDep node_modules/json-server @tinyhttp/cors@2.0.0 OK for: json-server@1.0.0-alpha.23 want: ^2.0.0
+61 silly placeDep node_modules/json-server chalk@5.3.0 OK for: json-server@1.0.0-alpha.23 want: ^5.3.0
+62 silly placeDep node_modules/json-server chokidar@3.6.0 OK for: json-server@1.0.0-alpha.23 want: ^3.5.3
+63 silly placeDep node_modules/json-server dot-prop@8.0.2 OK for: json-server@1.0.0-alpha.23 want: ^8.0.2
+64 silly placeDep node_modules/json-server eta@3.4.0 OK for: json-server@1.0.0-alpha.23 want: ^3.2.0
+65 silly placeDep node_modules/json-server inflection@3.0.0 OK for: json-server@1.0.0-alpha.23 want: ^3.0.0
+66 silly placeDep node_modules/json-server json5@2.2.3 OK for: json-server@1.0.0-alpha.23 want: ^2.2.3
+67 silly placeDep node_modules/json-server lowdb@7.0.1 OK for: json-server@1.0.0-alpha.23 want: ^7.0.1
+68 silly placeDep node_modules/json-server milliparsec@2.3.0 OK for: json-server@1.0.0-alpha.23 want: ^2.3.0
+69 silly placeDep node_modules/json-server sirv@2.0.4 OK for: json-server@1.0.0-alpha.23 want: ^2.0.4
+70 silly placeDep node_modules/json-server sort-on@6.0.0 OK for: json-server@1.0.0-alpha.23 want: ^6.0.0
+71 silly fetch manifest header-range-parser@1.1.3
+72 silly fetch manifest regexparam@^2.0.1
+73 silly fetch manifest @tinyhttp/cookie@2.1.0
+74 silly fetch manifest @tinyhttp/res@2.2.2
+75 silly fetch manifest @tinyhttp/proxy-addr@2.1.3
+76 silly fetch manifest @tinyhttp/req@2.2.2
+77 silly fetch manifest @tinyhttp/router@2.2.2
+78 silly fetch manifest es-vary@^0.1.1
+79 silly fetch manifest anymatch@~3.1.2
+80 silly fetch manifest braces@~3.0.2
+81 silly fetch manifest glob-parent@~5.1.2
+82 silly fetch manifest is-binary-path@~2.1.0
+83 silly fetch manifest is-glob@~4.0.1
+84 silly fetch manifest normalize-path@~3.0.0
+85 silly fetch manifest readdirp@~3.6.0
+86 silly fetch manifest fsevents@~2.3.2
+87 silly fetch manifest type-fest@^3.8.0
+88 silly fetch manifest steno@^4.0.2
+89 silly fetch manifest @polka/url@^1.0.0-next.24
+90 silly fetch manifest mrmime@^2.0.0
+91 silly fetch manifest totalist@^3.0.0
+92 http fetch GET 200 https://registry.npmjs.org/regexparam 136ms (cache miss)
+93 http fetch GET 200 https://registry.npmjs.org/glob-parent 132ms (cache miss)
+94 http fetch GET 200 https://registry.npmjs.org/is-binary-path 132ms (cache miss)
+95 http fetch GET 200 https://registry.npmjs.org/anymatch 135ms (cache miss)
+96 http fetch GET 200 https://registry.npmjs.org/braces 149ms (cache miss)
+97 http fetch GET 200 https://registry.npmjs.org/fsevents 212ms (cache miss)
+98 http fetch GET 200 https://registry.npmjs.org/steno 224ms (cache miss)
+99 http fetch GET 200 https://registry.npmjs.org/mrmime 229ms (cache miss)
+100 http fetch GET 200 https://registry.npmjs.org/@polka%2furl 265ms (cache miss)
+101 http fetch GET 200 https://registry.npmjs.org/es-vary 286ms (cache miss)
+102 http fetch GET 200 https://registry.npmjs.org/normalize-path 283ms (cache miss)
+103 http fetch GET 200 https://registry.npmjs.org/is-glob 287ms (cache miss)
+104 http fetch GET 200 https://registry.npmjs.org/type-fest 289ms (cache miss)
+105 http fetch GET 200 https://registry.npmjs.org/totalist 303ms (cache miss)
+106 http fetch GET 200 https://registry.npmjs.org/readdirp 359ms (cache miss)
+107 http fetch GET 200 https://registry.npmjs.org/header-range-parser 393ms (cache miss)
+108 http fetch GET 200 https://registry.npmjs.org/@tinyhttp%2fcookie 860ms (cache miss)
+109 http fetch GET 200 https://registry.npmjs.org/@tinyhttp%2fres 878ms (cache miss)
+110 http fetch GET 200 https://registry.npmjs.org/@tinyhttp%2freq 925ms (cache miss)
+111 http fetch GET 200 https://registry.npmjs.org/@tinyhttp%2fproxy-addr 1143ms (cache miss)
+112 http fetch GET 200 https://registry.npmjs.org/@tinyhttp%2frouter 2006ms (cache miss)
+113 timing idealTree:node_modules/json-server Completed in 2032ms
+114 silly placeDep node_modules/json-server @tinyhttp/cookie@2.1.0 OK for: @tinyhttp/app@2.2.3 want: 2.1.0
+115 silly placeDep node_modules/json-server @tinyhttp/proxy-addr@2.1.3 OK for: @tinyhttp/app@2.2.3 want: 2.1.3
+116 silly placeDep node_modules/json-server @tinyhttp/req@2.2.2 OK for: @tinyhttp/app@2.2.3 want: 2.2.2
+117 silly placeDep node_modules/json-server @tinyhttp/res@2.2.2 OK for: @tinyhttp/app@2.2.3 want: 2.2.2
+118 silly placeDep node_modules/json-server @tinyhttp/router@2.2.2 OK for: @tinyhttp/app@2.2.3 want: 2.2.2
+119 silly placeDep node_modules/json-server header-range-parser@1.1.3 OK for: @tinyhttp/app@2.2.3 want: 1.1.3
+120 silly placeDep node_modules/json-server regexparam@2.0.2 OK for: @tinyhttp/app@2.2.3 want: ^2.0.1
+121 silly fetch manifest ipaddr.js@^2.1.0
+122 silly fetch manifest @tinyhttp/forwarded@2.1.2
+123 silly fetch manifest @tinyhttp/accepts@2.2.1
+124 silly fetch manifest @tinyhttp/url@2.1.1
+125 silly fetch manifest @tinyhttp/type-is@2.2.2
+126 silly fetch manifest @tinyhttp/vary@^0.1.3
+127 silly fetch manifest es-escape-html@^0.1.1
+128 silly fetch manifest mime@4.0.1
+129 silly fetch manifest @tinyhttp/send@2.2.1
+130 silly fetch manifest @tinyhttp/cookie-signature@2.1.0
+131 silly fetch manifest @tinyhttp/content-disposition@2.2.0
+132 silly fetch manifest @tinyhttp/encode-url@2.1.1
+133 http fetch GET 200 https://registry.npmjs.org/mime 107ms (cache miss)
+134 http fetch GET 200 https://registry.npmjs.org/ipaddr.js 112ms (cache miss)
+135 http fetch GET 200 https://registry.npmjs.org/es-escape-html 465ms (cache miss)
+136 http fetch GET 200 https://registry.npmjs.org/@tinyhttp%2fencode-url 674ms (cache miss)
+137 http fetch GET 200 https://registry.npmjs.org/@tinyhttp%2ftype-is 751ms (cache miss)
+138 http fetch GET 200 https://registry.npmjs.org/@tinyhttp%2fsend 785ms (cache miss)
+139 http fetch GET 200 https://registry.npmjs.org/@tinyhttp%2furl 788ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/@tinyhttp%2faccepts 888ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/@tinyhttp%2fvary 1009ms (cache miss)
+142 http fetch GET 200 https://registry.npmjs.org/@tinyhttp%2fcontent-disposition 1047ms (cache miss)
+143 http fetch GET 200 https://registry.npmjs.org/@tinyhttp%2fcookie-signature 1590ms (cache miss)
+144 http fetch GET 200 https://registry.npmjs.org/@tinyhttp%2fforwarded 3907ms (cache miss)
+145 timing idealTree:node_modules/json-server/node_modules/@tinyhttp/app Completed in 3920ms
+146 timing idealTree:node_modules/json-server/node_modules/@tinyhttp/cookie Completed in 0ms
+147 silly placeDep node_modules/json-server es-vary@0.1.2 OK for: @tinyhttp/cors@2.0.0 want: ^0.1.1
+148 timing idealTree:node_modules/json-server/node_modules/@tinyhttp/cors Completed in 1ms
+149 silly placeDep node_modules/json-server @tinyhttp/forwarded@2.1.2 OK for: @tinyhttp/proxy-addr@2.1.3 want: 2.1.2
+150 silly placeDep node_modules/json-server ipaddr.js@2.2.0 OK for: @tinyhttp/proxy-addr@2.1.3 want: ^2.1.0
+151 timing idealTree:node_modules/json-server/node_modules/@tinyhttp/proxy-addr Completed in 2ms
+152 timing idealTree:node_modules/json-server/node_modules/@tinyhttp/forwarded Completed in 0ms
+153 silly placeDep node_modules/json-server @tinyhttp/accepts@2.2.1 OK for: @tinyhttp/req@2.2.2 want: 2.2.1
+154 silly placeDep node_modules/json-server @tinyhttp/type-is@2.2.2 OK for: @tinyhttp/req@2.2.2 want: 2.2.2
+155 silly placeDep node_modules/json-server @tinyhttp/url@2.1.1 OK for: @tinyhttp/req@2.2.2 want: 2.1.1
+156 silly fetch manifest negotiator@^0.6.3
+157 silly fetch manifest @tinyhttp/content-type@^0.1.4
+158 http fetch GET 200 https://registry.npmjs.org/negotiator 109ms (cache miss)
+159 http fetch GET 200 https://registry.npmjs.org/@tinyhttp%2fcontent-type 959ms (cache miss)
+160 timing idealTree:node_modules/json-server/node_modules/@tinyhttp/req Completed in 964ms
+161 silly placeDep node_modules/json-server mime@4.0.1 OK for: @tinyhttp/accepts@2.2.1 want: 4.0.1
+162 silly placeDep node_modules/json-server negotiator@0.6.3 OK for: @tinyhttp/accepts@2.2.1 want: ^0.6.3
+163 timing idealTree:node_modules/json-server/node_modules/@tinyhttp/accepts Completed in 3ms
+164 silly placeDep node_modules/json-server @tinyhttp/content-disposition@2.2.0 OK for: @tinyhttp/res@2.2.2 want: 2.2.0
+165 silly placeDep node_modules/json-server @tinyhttp/cookie-signature@2.1.0 OK for: @tinyhttp/res@2.2.2 want: 2.1.0
+166 silly placeDep node_modules/json-server @tinyhttp/encode-url@2.1.1 OK for: @tinyhttp/res@2.2.2 want: 2.1.1
+167 silly placeDep node_modules/json-server @tinyhttp/send@2.2.1 OK for: @tinyhttp/res@2.2.2 want: 2.2.1
+168 silly placeDep node_modules/json-server @tinyhttp/vary@0.1.3 OK for: @tinyhttp/res@2.2.2 want: ^0.1.3
+169 silly placeDep node_modules/json-server es-escape-html@0.1.1 OK for: @tinyhttp/res@2.2.2 want: ^0.1.1
+170 silly fetch manifest @tinyhttp/etag@2.1.1
+171 http fetch GET 200 https://registry.npmjs.org/@tinyhttp%2fetag 1117ms (cache miss)
+172 timing idealTree:node_modules/json-server/node_modules/@tinyhttp/res Completed in 1123ms
+173 timing idealTree:node_modules/json-server/node_modules/@tinyhttp/content-disposition Completed in 0ms
+174 timing idealTree:node_modules/json-server/node_modules/@tinyhttp/cookie-signature Completed in 0ms
+175 timing idealTree:node_modules/json-server/node_modules/@tinyhttp/encode-url Completed in 0ms
+176 timing idealTree:node_modules/json-server/node_modules/@tinyhttp/router Completed in 0ms
+177 silly placeDep node_modules/json-server @tinyhttp/content-type@0.1.4 OK for: @tinyhttp/send@2.2.1 want: ^0.1.4
+178 silly placeDep node_modules/json-server @tinyhttp/etag@2.1.1 OK for: @tinyhttp/send@2.2.1 want: 2.1.1
+179 timing idealTree:node_modules/json-server/node_modules/@tinyhttp/send Completed in 3ms
+180 timing idealTree:node_modules/json-server/node_modules/@tinyhttp/content-type Completed in 0ms
+181 timing idealTree:node_modules/json-server/node_modules/@tinyhttp/etag Completed in 0ms
+182 timing idealTree:node_modules/json-server/node_modules/@tinyhttp/type-is Completed in 0ms
+183 timing idealTree:node_modules/json-server/node_modules/@tinyhttp/url Completed in 0ms
+184 timing idealTree:node_modules/json-server/node_modules/@tinyhttp/vary Completed in 0ms
+185 timing idealTree:node_modules/json-server/node_modules/chalk Completed in 0ms
+186 silly placeDep node_modules/json-server anymatch@3.1.3 OK for: chokidar@3.6.0 want: ~3.1.2
+187 silly placeDep node_modules/json-server braces@3.0.2 OK for: chokidar@3.6.0 want: ~3.0.2
+188 silly placeDep node_modules/json-server fsevents@2.3.3 OK for: chokidar@3.6.0 want: ~2.3.2
+189 silly placeDep node_modules/json-server glob-parent@5.1.2 OK for: chokidar@3.6.0 want: ~5.1.2
+190 silly placeDep node_modules/json-server is-binary-path@2.1.0 OK for: chokidar@3.6.0 want: ~2.1.0
+191 silly placeDep node_modules/json-server is-glob@4.0.3 OK for: chokidar@3.6.0 want: ~4.0.1
+192 silly placeDep node_modules/json-server normalize-path@3.0.0 OK for: chokidar@3.6.0 want: ~3.0.0
+193 silly placeDep node_modules/json-server readdirp@3.6.0 OK for: chokidar@3.6.0 want: ~3.6.0
+194 silly fetch manifest picomatch@^2.0.4
+195 silly fetch manifest fill-range@^7.0.1
+196 silly fetch manifest binary-extensions@^2.0.0
+197 silly fetch manifest is-extglob@^2.1.1
+198 silly fetch manifest picomatch@^2.2.1
+199 http fetch GET 200 https://registry.npmjs.org/is-extglob 113ms (cache miss)
+200 http fetch GET 200 https://registry.npmjs.org/fill-range 117ms (cache miss)
+201 http fetch GET 200 https://registry.npmjs.org/binary-extensions 117ms (cache miss)
+202 http fetch GET 200 https://registry.npmjs.org/picomatch 118ms (cache miss)
+203 timing idealTree:node_modules/json-server/node_modules/chokidar Completed in 136ms
+204 silly placeDep node_modules/json-server picomatch@2.3.1 OK for: anymatch@3.1.3 want: ^2.0.4
+205 timing idealTree:node_modules/json-server/node_modules/anymatch Completed in 1ms
+206 silly placeDep node_modules/json-server fill-range@7.0.1 OK for: braces@3.0.2 want: ^7.0.1
+207 silly fetch manifest to-regex-range@^5.0.1
+208 http fetch GET 200 https://registry.npmjs.org/to-regex-range 100ms (cache miss)
+209 timing idealTree:node_modules/json-server/node_modules/braces Completed in 103ms
+210 silly placeDep node_modules/json-server type-fest@3.13.1 OK for: dot-prop@8.0.2 want: ^3.8.0
+211 timing idealTree:node_modules/json-server/node_modules/dot-prop Completed in 1ms
+212 timing idealTree:node_modules/json-server/node_modules/es-escape-html Completed in 0ms
+213 timing idealTree:node_modules/json-server/node_modules/es-vary Completed in 0ms
+214 timing idealTree:node_modules/json-server/node_modules/eta Completed in 0ms
+215 silly placeDep node_modules/json-server to-regex-range@5.0.1 OK for: fill-range@7.0.1 want: ^5.0.1
+216 silly fetch manifest is-number@^7.0.0
+217 http fetch GET 200 https://registry.npmjs.org/is-number 98ms (cache miss)
+218 timing idealTree:node_modules/json-server/node_modules/fill-range Completed in 101ms
+219 timing idealTree:node_modules/json-server/node_modules/fsevents Completed in 0ms
+220 timing idealTree:node_modules/json-server/node_modules/glob-parent Completed in 0ms
+221 timing idealTree:node_modules/json-server/node_modules/header-range-parser Completed in 0ms
+222 timing idealTree:node_modules/json-server/node_modules/inflection Completed in 0ms
+223 timing idealTree:node_modules/json-server/node_modules/ipaddr.js Completed in 0ms
+224 silly placeDep node_modules/json-server binary-extensions@2.3.0 OK for: is-binary-path@2.1.0 want: ^2.0.0
+225 timing idealTree:node_modules/json-server/node_modules/is-binary-path Completed in 1ms
+226 timing idealTree:node_modules/json-server/node_modules/binary-extensions Completed in 0ms
+227 silly placeDep node_modules/json-server is-extglob@2.1.1 OK for: is-glob@4.0.3 want: ^2.1.1
+228 timing idealTree:node_modules/json-server/node_modules/is-glob Completed in 1ms
+229 timing idealTree:node_modules/json-server/node_modules/is-extglob Completed in 0ms
+230 timing idealTree:node_modules/json-server/node_modules/json5 Completed in 0ms
+231 silly placeDep node_modules/json-server steno@4.0.2 OK for: lowdb@7.0.1 want: ^4.0.2
+232 timing idealTree:node_modules/json-server/node_modules/lowdb Completed in 1ms
+233 timing idealTree:node_modules/json-server/node_modules/milliparsec Completed in 0ms
+234 timing idealTree:node_modules/json-server/node_modules/mime Completed in 0ms
+235 timing idealTree:node_modules/json-server/node_modules/negotiator Completed in 0ms
+236 timing idealTree:node_modules/json-server/node_modules/normalize-path Completed in 0ms
+237 timing idealTree:node_modules/json-server/node_modules/picomatch Completed in 0ms
+238 timing idealTree:node_modules/json-server/node_modules/readdirp Completed in 0ms
+239 timing idealTree:node_modules/json-server/node_modules/regexparam Completed in 0ms
+240 silly placeDep node_modules/json-server @polka/url@1.0.0-next.25 OK for: sirv@2.0.4 want: ^1.0.0-next.24
+241 silly placeDep node_modules/json-server mrmime@2.0.0 OK for: sirv@2.0.4 want: ^2.0.0
+242 silly placeDep node_modules/json-server totalist@3.0.1 OK for: sirv@2.0.4 want: ^3.0.0
+243 timing idealTree:node_modules/json-server/node_modules/sirv Completed in 5ms
+244 timing idealTree:node_modules/json-server/node_modules/@polka/url Completed in 0ms
+245 timing idealTree:node_modules/json-server/node_modules/mrmime Completed in 0ms
+246 timing idealTree:node_modules/json-server/node_modules/sort-on Completed in 0ms
+247 timing idealTree:node_modules/json-server/node_modules/steno Completed in 0ms
+248 silly placeDep node_modules/json-server is-number@7.0.0 OK for: to-regex-range@5.0.1 want: ^7.0.0
+249 timing idealTree:node_modules/json-server/node_modules/to-regex-range Completed in 2ms
+250 timing idealTree:node_modules/json-server/node_modules/is-number Completed in 0ms
+251 timing idealTree:node_modules/json-server/node_modules/totalist Completed in 0ms
+252 timing idealTree:node_modules/json-server/node_modules/type-fest Completed in 0ms
+253 timing idealTree:buildDeps Completed in 11376ms
+254 timing idealTree:fixDepFlags Completed in 1ms
+255 warn EBADENGINE Unsupported engine {
+255 warn EBADENGINE   package: 'json-server@1.0.0-alpha.23',
+255 warn EBADENGINE   required: { node: '>=18.3' },
+255 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+255 warn EBADENGINE }
+256 warn EBADENGINE Unsupported engine {
+256 warn EBADENGINE   package: '@tinyhttp/app@2.2.3',
+256 warn EBADENGINE   required: { node: '>=14.21.3' },
+256 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+256 warn EBADENGINE }
+257 warn EBADENGINE Unsupported engine {
+257 warn EBADENGINE   package: 'dot-prop@8.0.2',
+257 warn EBADENGINE   required: { node: '>=16' },
+257 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+257 warn EBADENGINE }
+258 warn EBADENGINE Unsupported engine {
+258 warn EBADENGINE   package: 'inflection@3.0.0',
+258 warn EBADENGINE   required: { node: '>=18.0.0' },
+258 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+258 warn EBADENGINE }
+259 warn EBADENGINE Unsupported engine {
+259 warn EBADENGINE   package: 'lowdb@7.0.1',
+259 warn EBADENGINE   required: { node: '>=18' },
+259 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+259 warn EBADENGINE }
+260 warn EBADENGINE Unsupported engine {
+260 warn EBADENGINE   package: 'sort-on@6.0.0',
+260 warn EBADENGINE   required: { node: '>=18' },
+260 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+260 warn EBADENGINE }
+261 warn EBADENGINE Unsupported engine {
+261 warn EBADENGINE   package: 'mime@4.0.1',
+261 warn EBADENGINE   required: { node: '>=16' },
+261 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+261 warn EBADENGINE }
+262 warn EBADENGINE Unsupported engine {
+262 warn EBADENGINE   package: 'type-fest@3.13.1',
+262 warn EBADENGINE   required: { node: '>=14.16' },
+262 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+262 warn EBADENGINE }
+263 warn EBADENGINE Unsupported engine {
+263 warn EBADENGINE   package: 'steno@4.0.2',
+263 warn EBADENGINE   required: { node: '>=18' },
+263 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+263 warn EBADENGINE }
+264 timing idealTree Completed in 11400ms
+265 timing reify:loadTrees Completed in 11403ms
+266 timing reify:diffTrees Completed in 2ms
+267 silly reify moves {}
+268 timing reify:retireShallow Completed in 0ms
+269 timing reify:rollback:createSparse Completed in 0ms
+270 timing reify:rollback:retireShallow Completed in 0ms
+271 timing command:install Completed in 11449ms
+272 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/json-server'
+273 verbose cwd /home/malek
+274 verbose Linux 5.15.146.1-microsoft-standard-WSL2
+275 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "json-server"
+276 verbose node v12.22.9
+277 verbose npm  v8.5.1
+278 error code EACCES
+279 error syscall mkdir
+280 error path /usr/local/lib/node_modules/json-server
+281 error errno -13
+282 error [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/json-server'] {
+282 error   errno: -13,
+282 error   code: 'EACCES',
+282 error   syscall: 'mkdir',
+282 error   path: '/usr/local/lib/node_modules/json-server'
+282 error }
+283 error
+283 error The operation was rejected by your operating system.
+283 error It is likely you do not have the permissions to access this file as the current user
+283 error
+283 error If you believe this might be a permissions issue, please double-check the
+283 error permissions of the file and its containing directories, or try running
+283 error the command again as root/Administrator.
+284 verbose exit -13
+285 timing npm Completed in 11639ms
+286 verbose unfinished npm timer reify 1714141374627
+287 verbose unfinished npm timer reify:createSparse 1714141386049
+288 verbose code -13
+289 error A complete log of this run can be found in:
+289 error     /home/malek/.npm/_logs/2024-04-26T14_22_54_440Z-debug-0.log

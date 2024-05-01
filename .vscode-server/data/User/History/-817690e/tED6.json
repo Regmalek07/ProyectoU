@@ -1,0 +1,28 @@
+{
+  "usuarios": [
+    {
+      "id": "5f98",
+      "nombre": "luis",
+      "telefono": "1234566",
+      "correo": "dada@dad.com",
+      "contrasena": "123456",
+      "direccion": "Calle 1"
+    },
+    {
+      "id": "9556",
+      "nombre": "olga",
+      "telefono": "3111234569",
+      "correo": "olga@hotmail.com",
+      "contrasena": "123456",
+      "direccion": "Calle 4 #3-23"
+    },
+    {
+      "id": "b4b3",
+      "nombre": "Paola",
+      "telefono": "12345657",
+      "correo": "pao@dad.com",
+      "contrasena": "123456",
+      "direccion": "Calle 1"
+    }
+  ]
+}

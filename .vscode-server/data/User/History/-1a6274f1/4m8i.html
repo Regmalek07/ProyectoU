@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es">
+        <meta charset="UFT-8">
+        <title>Pagina de prueba</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="home.html">
+                    <img src="Logo_1.png" alt="Logo de tu empresa">
+                </a>
+            </div>
+            <nav>
+                <!-- Aquí podrías agregar un menú de navegación si lo deseas -->
+            </nav>
+        </header>
+        <section class="landing">
+            <h1>Hola ingresa tu email/usuario y contraseña</h1>
+            <form id="login-form">
+                <input type="email" name="correo" placeholder="Correo electrónico" required>
+                <input type="password" name="contrasena" placeholder="Contraseña" required>
+                <button type="submit">Ingresar</button>
+            </form>
+            <a href="registro.html">¿Aún no tienes una cuenta? Regístrate aquí</a>
+        </section>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                // Verificar el estado de autenticación al cargar la página
+                var isAuthenticated = localStorage.getItem("authenticated");
+        
+                if (!isAuthenticated) {
+                    // Si el usuario no está autenticado, redirigir al inicio de sesión
+                    window.location.href = "catalogo.html";
+                }
+            });
+        </script>
+        <script src="login.js"></script>
+    </body>
+</html>

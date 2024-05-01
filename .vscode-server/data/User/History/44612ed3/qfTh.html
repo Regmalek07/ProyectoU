@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es">
+        <meta charset="UFT-8">
+        <title>Contactanos</title>
+        <link rel="stylesheet" href="styles/styles3.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="home.html">
+                <img src="images/Logo_1.png" alt="LogoShop">
+                </a>
+            </div>
+            <nav class="menu-container">
+                <ul>
+                    <li><a href="home.html">Inicio</a><span>|</span></li>
+                    <li><a href="destacado.html">Destacados</a><span>|</span></li>
+                    <li><a href="resena.html">Reseñas</a><span>|</span></li>
+                    <li><a href="sobre_nosotros.html">Sobre nosotros</a><span>|</span></li>
+                    <li><a href="contacto.html">Contáctanos</a><span>|</span></li>
+                    <li id="btCarrito"><a href="carrito.html">Carrito</a><span>|</span></li>
+                    <li id="btIngresar" class="menu"> <!-- Cambia la clase a "menu" -->
+                        <a>Ingresar</a>
+                        <ul>
+                            <li><a href="inicio_sesion.html">Iniciar Sesion</a></li>
+                            <li><a href="registro.html">Regístrate</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <nav>
+                <button id="logout-button" onclick="logout()" style="display: none;">Cerrar sesión</button>
+            </nav>
+        </header>
+        <section class="contact">
+            <h1>Contacto</h1>
+            <div class="content">
+                <p>Para contactarnos, por favor utilice la siguiente información:</p>
+                <p>Teléfono: 123-456-789</p>
+                <p>Correo electrónico: info@tudominio.com</p>
+            </div>
+        </section>
+        <footer>
+            <p>Síguenos en nuestras redes sociales:</p>
+            <div>
+                <a href="https://www.facebook.com/tu_pagina" target="_blank">
+                    <img src="images/faceLogo.png" alt="Facebook" class="redes">
+                </a>
+                <a href="https://twitter.com/tu_pagina" target="_blank">
+                    <img src="images/xLogo.png" alt="Twitter" class="redes">
+                </a>
+                <a href="https://www.instagram.com/tu_pagina" target="_blank">
+                    <img src="images/instaLogo.png" alt="Instagram" class="redes">
+                </a>
+            </div>
+        </footer>
+        <script src="localsesion.js"></script>
+    </body>
+</html>

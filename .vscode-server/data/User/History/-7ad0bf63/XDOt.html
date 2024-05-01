@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es">
+        <meta charset="UFT-8">
+        <title>Acerca de nosotros</title>
+        <link rel="stylesheet" href="styles/styles2.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/Logo_1.png" alt="LogoShop">
+            </div>
+            <nav class="menu-container">
+                <ul>
+                    <li><a href="home.html">Inicio</a><span>|</span></li>
+                    <li><a href="destacado.html">Destacados</a><span>|</span></li>
+                    <li><a href="resena.html">Reseñas</a><span>|</span></li>
+                    <li><a href="sobre_nosotros.html">Sobre nosotros</a><span>|</span></li>
+                    <li><a href="contacto.html">Contáctanos</a><span>|</span></li>
+                    <li id="btIngresar" class="menu"> <!-- Cambia la clase a "menu" -->
+                        <a>Ingresar</a>
+                        <ul>
+                            <li><a href="inicio_sesion.html">Iniciar Sesion</a></li>
+                            <li><a href="registro.html">Regístrate</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <nav>
+                <button id="logout-button" onclick="logout()" style="display: none;">Cerrar sesión</button>
+            </nav>
+        </header>
+        <section class="about-us">
+            <h1>Sobre Nosotros</h1>
+            <div class="content">
+                <p>Somos una empresa comprometida con...</p>
+                <p>Nuestra misión es...</p>
+                <p>Visión...</p>
+            </div>
+            <div>
+            </div>
+        </section>
+        <footer>
+            <p>Síguenos en nuestras redes sociales:</p>
+            <div>
+                <a href="https://www.facebook.com/tu_pagina" target="_blank">
+                    <img src="images/facebook.png" alt="Facebook" style="width: 30px; height: 30px; margin-right: 10px;">
+                </a>
+                <a href="https://twitter.com/tu_pagina" target="_blank">
+                    <img src="images/twitter.png" alt="Twitter" style="width: 30px; height: 30px; margin-right: 10px;">
+                </a>
+                <a href="https://www.instagram.com/tu_pagina" target="_blank">
+                    <img src="images/instagram.png" alt="Instagram" style="width: 30px; height: 30px;">
+                </a>
+            </div>
+        </footer>
+        <script src="localsesion.js"></script>
+    </body>
+</html>

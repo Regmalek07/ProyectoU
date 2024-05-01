@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseñas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="home.html">
+                <img src="images/Logo_1.png" alt="LogoShop">
+            </a>
+        </div>
+        <nav>
+            <button id="logout-button" onclick="logout()" style="display: none;">Cerrar sesión</button>
+        </nav>
+    </header>
+
+    <div class="menu-container">
+        <nav>
+            <ul>
+                <li><a href="home.html">Inicio</a><span>|</span></li>
+                <li><a href="destacado.html">Destacados</a><span>|</span></li>
+                <li><a href="resena.html">Reseñas</a><span>|</span></li>
+                <li><a href="sobre_nosotros.html">Sobre nosotros</a><span>|</span></li>
+                <li><a href="contacto.html">Contáctanos</a><span>|</span></li>
+                <li class="menu">
+                    <a>Ingresar</a>
+                    <ul>
+                        <li><a href="inicio_sesion.html">Iniciar Sesion</a></li>
+                        <li><a href="registro.html">Regístrate</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="reseñas">
+        <h1>Reseñas sobre nuestro sitio</h1>
+        <div class="reseña-form">
+            <h2>Escribe tu reseña:</h2>
+            <form action="#" method="POST" id="reseña-form">
+                <textarea name="reseña" id="reseña" cols="30" rows="10" placeholder="Escribe tu reseña aquí" required></textarea>
+                <button type="submit">Enviar reseña</button>
+            </form>
+        </div>
+        <div class="reseñas-lista">
+            <h2>Reseñas anteriores:</h2>
+            <ul id="reseñas-lista">
+                <!-- Aquí se cargarán dinámicamente las reseñas anteriores -->
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Pie de página -->
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

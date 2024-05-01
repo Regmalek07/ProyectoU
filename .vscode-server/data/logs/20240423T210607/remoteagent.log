@@ -1,0 +1,63 @@
+2024-04-23 21:06:08.035 [info] 
+
+
+
+
+2024-04-23 21:06:08.035 [info] Extension host agent started.
+2024-04-23 21:06:08.035 [info] Started initializing default profile extensions in extensions installation folder. file:///home/malek/.vscode-server/extensions
+2024-04-23 21:06:08.051 [info] [127.0.0.1][545e88d2][ManagementConnection] New connection established.
+2024-04-23 21:06:08.057 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/malek/.vscode-server/extensions
+2024-04-23 21:06:08.291 [info] [127.0.0.1][8b3e21dc][ExtensionHostConnection] New connection established.
+2024-04-23 21:06:08.303 [info] [127.0.0.1][8b3e21dc][ExtensionHostConnection] <11154> Launched Extension Host Process.
+2024-04-23 21:06:21.559 [info] [127.0.0.1][545e88d2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-04-23 21:06:21.575 [info] [127.0.0.1][8b3e21dc][ExtensionHostConnection] <11154> Extension Host Process exited with code: 0, signal: null.
+2024-04-23 21:06:23.382 [info] [127.0.0.1][e36048ab][ManagementConnection] New connection established.
+2024-04-23 21:06:23.837 [info] [127.0.0.1][b210737f][ExtensionHostConnection] New connection established.
+2024-04-23 21:06:23.845 [info] [127.0.0.1][b210737f][ExtensionHostConnection] <11245> Launched Extension Host Process.
+2024-04-23 21:06:52.670 [info] Getting Manifest... almenon.arepl
+2024-04-23 21:06:52.713 [info] Installing extension: almenon.arepl
+2024-04-23 21:06:55.922 [info] Extension signature is verified: almenon.arepl
+2024-04-23 21:06:56.374 [info] Extracted extension to file:///home/malek/.vscode-server/extensions/almenon.arepl-2.0.5: almenon.arepl
+2024-04-23 21:06:56.384 [info] Renamed to /home/malek/.vscode-server/extensions/almenon.arepl-2.0.5
+2024-04-23 21:06:56.386 [info] Extracting extension completed. almenon.arepl
+2024-04-23 21:06:56.394 [info] Extension installed successfully: almenon.arepl
+2024-04-23 21:07:08.218 [info] Getting Manifest... ms-python.python
+2024-04-23 21:07:08.291 [info] Installing extension: ms-python.python
+2024-04-23 21:07:09.149 [info] Getting Manifest... ms-python.vscode-pylance
+2024-04-23 21:07:09.214 [info] Getting Manifest... ms-python.debugpy
+2024-04-23 21:07:09.287 [info] Installing extension: ms-python.vscode-pylance
+2024-04-23 21:07:09.288 [info] Installing extension: ms-python.debugpy
+2024-04-23 21:07:11.522 [info] Extension signature is verified: ms-python.debugpy
+2024-04-23 21:07:11.927 [info] Extracted extension to file:///home/malek/.vscode-server/extensions/ms-python.debugpy-2024.4.0-linux-x64: ms-python.debugpy
+2024-04-23 21:07:11.935 [info] Renamed to /home/malek/.vscode-server/extensions/ms-python.debugpy-2024.4.0-linux-x64
+2024-04-23 21:07:11.938 [info] Extracting extension completed. ms-python.debugpy
+2024-04-23 21:07:12.566 [info] Getting Manifest... ms-python.python
+2024-04-23 21:07:12.628 [info] Extension is already requested to install ms-python.python
+2024-04-23 21:07:23.371 [info] Extension signature is verified: ms-python.python
+2024-04-23 21:07:24.827 [info] Extension signature is verified: ms-python.vscode-pylance
+2024-04-23 21:07:26.142 [info] Extracted extension to file:///home/malek/.vscode-server/extensions/ms-python.python-2024.4.1: ms-python.python
+2024-04-23 21:07:26.155 [info] Renamed to /home/malek/.vscode-server/extensions/ms-python.python-2024.4.1
+2024-04-23 21:07:26.160 [info] Extracting extension completed. ms-python.python
+2024-04-23 21:07:29.673 [info] Extracted extension to file:///home/malek/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1: ms-python.vscode-pylance
+2024-04-23 21:07:29.691 [info] Renamed to /home/malek/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1
+2024-04-23 21:07:29.694 [info] Extracting extension completed. ms-python.vscode-pylance
+2024-04-23 21:07:29.703 [info] Extension installed successfully: ms-python.debugpy
+2024-04-23 21:07:29.703 [info] Extension installed successfully: ms-python.python
+2024-04-23 21:07:29.703 [info] Extension installed successfully: ms-python.vscode-pylance
+2024-04-23 21:18:37.054 [info] Getting Manifest... nhatvu148.jupiter
+2024-04-23 21:18:37.142 [info] Installing extension: nhatvu148.jupiter
+2024-04-23 21:18:57.150 [info] Extension signature is verified: nhatvu148.jupiter
+2024-04-23 21:18:58.335 [info] Extracted extension to file:///home/malek/.vscode-server/extensions/nhatvu148.jupiter-1.2.6: nhatvu148.jupiter
+2024-04-23 21:18:58.343 [info] Renamed to /home/malek/.vscode-server/extensions/nhatvu148.jupiter-1.2.6
+2024-04-23 21:18:58.344 [info] Extracting extension completed. nhatvu148.jupiter
+2024-04-23 21:18:58.352 [info] Extension installed successfully: nhatvu148.jupiter
+2024-04-23 21:19:46.718 [info] Uninstalling extension from the profile: nhatvu148.jupiter@1.2.6 file:///home/malek/.vscode-server/extensions/extensions.json
+2024-04-23 21:19:46.741 [info] Marked extension as uninstalled nhatvu148.jupiter-1.2.6
+2024-04-23 21:19:47.015 [info] Successfully uninstalled extension from the profile nhatvu148.jupiter@1.2.6 file:///home/malek/.vscode-server/extensions/extensions.json
+2024-04-23 21:19:52.063 [info] [127.0.0.1][e36048ab][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-04-23 21:19:52.119 [info] [127.0.0.1][b210737f][ExtensionHostConnection] <11245> Extension Host Process exited with code: 0, signal: null.
+2024-04-23 21:19:53.717 [info] [127.0.0.1][c29c394e][ManagementConnection] New connection established.
+2024-04-23 21:19:54.033 [info] [127.0.0.1][8aee18f7][ExtensionHostConnection] New connection established.
+2024-04-23 21:19:54.040 [info] [127.0.0.1][8aee18f7][ExtensionHostConnection] <14956> Launched Extension Host Process.
+2024-04-23 21:24:23.310 [info] [127.0.0.1][c29c394e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-04-23 21:24:23.345 [info] [127.0.0.1][8aee18f7][ExtensionHostConnection] <14956> Extension Host Process exited with code: 0, signal: null.

@@ -1,0 +1,3 @@
+2024-04-23 21:19:55.157 [info] Expanding terminal instance, old id 36fb4c5886df237ab4c223ca61a60113-1 -> new id undefined
+2024-04-23 21:19:55.939 [info] Persistent process reconnection "1"
+2024-04-23 21:19:55.975 [info] Persistent process "1": Replaying 7821 chars and 1 size events

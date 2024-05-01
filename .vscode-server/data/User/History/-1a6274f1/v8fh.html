@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es">
+        <meta charset="UFT-8">
+        <title>Pagina de prueba</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <!-- Aquí coloca tu logo -->
+                <img src="Logo_1.png" alt="Logo de tu empresa">
+            </div>
+            <nav>
+                <!-- Aquí podrías agregar un menú de navegación si lo deseas -->
+            </nav>
+        </header>
+        <section class="landing">
+            <h1>Hola ingresa tu email/usuario y contraseña</h1>
+            <form action="http://localhost:3000/login" method="post">
+                <input type="text" name="usuario" placeholder="Usuario">
+                <input type="password" name="contrasena" placeholder="Contraseña">
+                <button type="submit">Ingresar</button>
+            </form>
+            <a href="registro.html">¿Aún no tienes una cuenta? Regístrate aquí</a>
+        </section>
+    </body>
+</html>
